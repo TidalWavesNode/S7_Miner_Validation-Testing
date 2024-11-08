@@ -1,4 +1,4 @@
-# SubVoretex Miner Validation Testing Script
+# SubVoretex Miner Validation Testing 
 
 ## Overview
 
