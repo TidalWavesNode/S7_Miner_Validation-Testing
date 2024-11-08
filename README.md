@@ -1,8 +1,8 @@
-# Miner Analysis Script
+# SubVoretex Miner Validation Testing Script
 
 ## Overview
 
-This repository contains a combined script that performs analysis on miners in the SubVortex Bittensor subnet. The script first extracts miner data from the Bittensor network, then evaluates the performance of each miner based on their connectivity and responsiveness. The entire process is automated into a single script, making it easier to manage and monitor miner activity.
+This repository contains a script that performs analysis on miners in the SubVortex subnet. The script first extracts current metagraph data from the Bittensor network, then evaluates the performance of each miner based on their connectivity and responsiveness. The entire process is automated into a single script, making it easier to manage and monitor miner activity.
 
 ## Features
 
@@ -14,7 +14,7 @@ This repository contains a combined script that performs analysis on miners in t
 ## Requirements
 
 - **Bash**: The main script is written in Bash.
-- **Python 3**: Required to run the metagraph extraction and processing.
+- **Python3**: Required to run the metagraph extraction and processing.
 - **btcli**: A command-line tool for interacting with the Bittensor network.
 - **netcat (nc)**: Used for connectivity testing.
 - **timeout**: Used to limit the duration of connectivity and command tests.
@@ -25,20 +25,20 @@ Make sure all these dependencies are installed and available in your environment
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/miner-analysis.git
+   git clone https://github.com/TidalWavesNode/S7_Miner_Validation-Testing.git
    cd miner-analysis
    ```
 
 2. Make the script executable:
    ```bash
-   chmod +x combined_script.sh
+   chmod +x Miner_Validation.sh
    ```
 
 ## Usage
 
 Run the script with the following command:
 ```bash
-./combined_script.sh
+./Miner_Validation.sh
 ```
 
 This will:
