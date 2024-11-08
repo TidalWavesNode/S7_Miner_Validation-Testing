@@ -1,4 +1,4 @@
-# SubVoretex Miner Validation Testing 
+# SubVortex Miner Validation Testing 
 
 ## Overview
 
