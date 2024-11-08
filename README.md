@@ -26,7 +26,7 @@ Make sure all these dependencies are installed and available in your environment
 1. Clone the repository:
    ```bash
    git clone https://github.com/TidalWavesNode/S7_Miner_Validation-Testing.git
-   cd miner-analysis
+   cd S7_Miner_Validation-Testing
    ```
 
 2. Make the script executable:
